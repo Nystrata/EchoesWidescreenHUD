@@ -2,8 +2,7 @@
 
 ## Overview
 
-This a simple mod that changes the HUD size for Echoes GC to better fit 16:9 widescreen hack.  
-Tested only with the NTSC-U GameCube (G2ME01) version of the game  
+This a simple mod for Metroid Prime 2: Echoes (US) (G2ME01) for the Nintendo GameCube that adjusts the HUD to better match forced 16:9 widescreen hacks.
 
 <img src="extras/images/Sample.png">
 
