@@ -2,22 +2,20 @@
 
 ## Overview
 
-This a simple mod for Metroid Prime 2: Echoes (US) (G2ME01) for the Nintendo GameCube that adjusts the HUD to better match forced 16:9 widescreen hacks.
+This a simple mod for Metroid Prime 2: Echoes (NTSC-U) (G2ME01) for the Nintendo GameCube that adjusts the HUD to better match forced 16:9 widescreen hacks.
 
 <img src="extras/images/Sample.png">
 
-## Mod Installation (Windows)
+## Mod Installation (For Windows)
 
 ### Patching the game
-1. Download from [Releases](https://github.com/Nystrata/echoeswidescreenhud/releases) and extract this mod's folder. (Or clone this repository)
+1. Download from [Releases](https://github.com/Nystrata/echoeswidescreenhud/releases) and extract this mod's folder.
 2. Make a copy of the game and rename it to `echoes.iso`. Place it in the mod's folder.
 3. Run the included patch.bat
 4. This will create a new ISO file called echoes_widescreenhud.iso with the mod installed
 
-### Applying Widescreen Gecko Codes in Dolphin
+### Widescreen Gecko Codes for Dolphin (or PrimeHack)
 In Dolphin, choose Force 16:9 for the Aspect Ratio (Options -> Graphics Settings -> General -> Aspect Ratio)  
-
-Then, use this Gecko code to run the game in widescreen:  
 Right-click the Metroid Prime 2: Echoes in the game list, click Properties, and apply the code to the Gecko Codes tab.  
 
 These codes are for the NTSC-U copy of the game:  
@@ -34,33 +32,30 @@ ED330272 ED6A4824
 ```
 [(Source)](https://wiki.dolphin-emu.org/index.php?title=Metroid_Prime_2:_Echoes_(GC)#16:9_Aspect_Ratio_Fix)
 
-**Avoid using Dolphin's Widescreen Hack option!**  
-At the moment, Dolphin's current widescreen detection will cause the game to flicker between normal view and stretched view when Widescreen Hack is enabled
+**Make sure Widescreen Hack is *disabled* in Dolphin!**  
+When Widescreen Hack is enabled, Dolphin's current widescreen detection will cause the game to flicker between normal view and stretched view. It's recommended to disable it while playing this game in the official Dolphin releases.  
+To disable Widescreen Hack, go to Options -> Graphics Settings -> Enhancements -> Uncheck Widescreen Hack  
 
-## Mod Installation (Not Windows)
+### Applying Widescreen Gecko Code in Nintendont ###
+For Nintendont, you can use the supplied G2ME01.gct codes file in the extras folder.  
+Or, use G2ME1R.gct for Randovania Echoes Randomizer games.
+
+## Mod Installation (For Not Windows)
 * Extract the game files (You can use [NODTool](https://github.com/AxioDL/nod) or any app that can extract the full game filesystem and rebuild it. You can also use Dolphin to extract if you do not care about rebuilding the ISO)
-* Use a vcdiff/xdelta3 patcher to patch files/GGuiSys.pak in the game files with this mod's vcdiff/GGuiSys.pak_widescreen.vcdiff file
+* Use a vcdiff xdelta3 patcher to patch files/GGuiSys.pak in the game files with this mod's vcdiff/GGuiSys.pak_widescreen.vcdiff file
 * Replace the original game's GGuiSys.pak with the newly patched GGuiSys.pak (make sure the name is exactly GGuiSys.pak)
 * Rebuild the ISO (Or start the game directly from extracted files if using Dolphin (File -> Open, browse for sys/main.dol))
 * Apply the cheat codes to the emulator/loader from above
 
-## Compatibility ##
-
-### Dolphin ###
-Should work in both of [Dolphin](https://dolphin-emu.org/) and [PrimeHack](https://forums.dolphin-emu.org/Thread-fork-primehack-fps-controls-and-more-for-metroid-prime)
-
-### Nintendont ###
-For [Nintendont](https://github.com/FIX94/Nintendont), you can use the supplied G2ME01.gct codes file in the extras folder. 
-Or, use G2ME1R.gct for Randovania Echoes Randomizer games.
-
-### Randovania Echoes Randomizer ###
+## Randovania Compatibility ##
 To use this with [Randovania randomizer](https://github.com/randovania/randovania),  
-create a vanilla game with the Widescreen HUD mod first, then select it as the Input ISO when Exporting the game from Randovania.
+create a vanilla game with the Widescreen HUD mod first, then select it as the Input ISO when exporting the game from Randovania.  
 
-Also apply the Gecko codes to G2ME1R (Dolphin considers Echoes Randomizer as a seperate game to vanilla Echoes.):  
-In Dolphin, right-click the Metroid Prime 2: Randomizer in the game list, click Properties, and apply the codes to the Gecko Codes tab.  
+After exporting, in Dolphin,  
+right-click the Metroid Prime 2: Randomizer in the game list, click Properties, and apply the codes to the Gecko Codes tab.  
+(In Dolphin, Metroid Prime 2: Randomizer's settings are stored seperately from the vanilla game's settings.)
 
-> While mod does work with Randovania, it is *not* supported by Randovania  developers.
+> While mod does work with Randovania, it is *not* supported by Randovania  developers.  
 > Do not report bugs to the Randovania developers while using this mod.
 
 ## Other Details
