@@ -120,9 +120,12 @@ See Aruki's [Widescreen Hud Mod for Metroid Prime](https://wiki.dolphin-emu.org/
 
 ### Screenshots
 <img src="extras/images/CombatVisor.png">
-<img src="extras/images/ScanVisor.png">
+<img src="extras/images/ScanVisor.png">  
+  
+(This screenshot uses parts of [Metroid Prime Trilogy - HD Interface Textures](https://forums.dolphin-emu.org/Thread-metroid-prime-trilogy-hd-interface-textures-v-1-7-may-01-2021).)
 
 More screenshots can be found in [extras/images/](https://github.com/Nystrata/echoeswidescreenhud/tree/main/extras/images/)
+
 ***
 
 nys
