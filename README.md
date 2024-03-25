@@ -17,7 +17,6 @@ This a simple mod for Metroid Prime 2: Echoes (NTSC-U) (G2ME01) for the Nintendo
   * Use a vcdiff xdelta3 patcher to patch files/GGuiSys.pak in the game files with this mod's vcdiff/GGuiSys.pak_widescreen.vcdiff file
   * Replace the original game's GGuiSys.pak with the newly patched GGuiSys.pak (make sure the name is exactly GGuiSys.pak)
   * Rebuild the ISO (Or start the game directly from extracted files if using Dolphin (File -> Open, browse for sys/main.dol))
-  * Apply the cheat codes to the emulator/loader from above
 
 ## Widescreen for Dolphin
 * **Method 1: Gecko Codes**  
