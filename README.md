@@ -68,12 +68,9 @@ This a simple mod for Metroid Prime 2: Echoes (NTSC-U) (G2ME01) for the Nintendo
   There, you can add the setting to the User Config section)
 
 ## Widescreen for Nintendont
-For Nintendont, in the [extras folder](https://github.com/Nystrata/EchoesWidescreenHUD/tree/main/extras), you can use the following widescreen cheat codes:  
-- G2ME01.gct  
-  for Metroid Prime 2: Echoes
-- G2ME1R.gct  
-  for Randovania Echoes Randomizer games
- 
+For Nintendont, in the [extras folder](https://github.com/Nystrata/EchoesWidescreenHUD/tree/main/extras), you can use G2ME01.gct for the Widescreen codes.
+For Randovania Randomizer, you can rename this to game ID of the randomized game, such as G2ME0R.gct, G2ME1R.gct, etc.
+
 You may also try Nintedont's "Force Widescreen" option, but this has not been tested.
 
 
