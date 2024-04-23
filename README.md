@@ -16,9 +16,9 @@ More screenshots can be found on the [Screenshots page](https://github.com/Nystr
   3. Run the included patch.bat
   4. This will create a new ISO file called echoes_widescreenhud.iso with the mod installed
 * **For Not Windows**
-  * Extract the game files (You can use [NODTool](https://github.com/AxioDL/nod), Dolphin,  or any app that can extract the full game filesystem and rebuild it.)
-  * Use a vcdiff xdelta3 patcher to patch files/GGuiSys.pak in the game files with this mod's vcdiff/GGuiSys.pak_widescreen.vcdiff file
-  * Replace the original game's GGuiSys.pak with the newly patched GGuiSys.pak (make sure the name is exactly GGuiSys.pak)
+  * Extract the game files (You can use [NODTool](https://github.com/AxioDL/nod), Dolphin, or any app that can extract the full game filesystem and rebuild it.)
+  * Use a vcdiff xdelta3 patcher to patch files/GGuiSys.pak and Standard.ntwk in the game files with this mod's vcdiff/GGuiSys.pak.vcdiff and Standardpak.pak.vcdiff files
+  * Replace the original game's GGuiSys.pak and Standardpak.pak with the newly patched files
   * Rebuild the ISO (Or start the game directly from extracted files if using Dolphin (File -> Open, browse for sys/main.dol))
 
 ## Widescreen for Dolphin
