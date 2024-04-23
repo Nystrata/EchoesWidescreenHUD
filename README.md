@@ -6,7 +6,7 @@ This a simple mod for Metroid Prime 2: Echoes for the Nintendo GameCube that adj
 This will only work for NTSC-U G2ME01 version of the game.
 
 ![324662639-7e57fb19-1ead-4475-9fae-c6439fa0877c-1](https://github.com/Nystrata/EchoesWidescreenHUD/assets/15365192/41aa7660-7b33-4611-9aec-13ecd7487cfe)  
-More screenshots can be found on the [Screenshots page](https://github.com/Nystrata/echoeswidescreenhud/tree/main/extras/images/](https://github.com/Nystrata/EchoesWidescreenHUD/wiki/Screenshots)).
+More screenshots can be found on the [Screenshots page](https://github.com/Nystrata/EchoesWidescreenHUD/wiki/Screenshots).  
 
 
 ## Patching the Game
@@ -126,10 +126,10 @@ There are no plans to support Multiplayer modes.
   and xdelta3 for patching.
 
 ### Screenshots
-![324662365-23fcdeca-4e9d-433a-b709-28ddfec33409](https://github.com/Nystrata/EchoesWidescreenHUD/assets/15365192/307816f2-c4e0-48b1-a4e6-d789552dec9f)  
-![image](https://github.com/Nystrata/EchoesWidescreenHUD/assets/15365192/f4b94587-a3c3-4532-a1a0-56eda6abf99e)
+![Combat Visor](https://github.com/Nystrata/EchoesWidescreenHUD/assets/15365192/307816f2-c4e0-48b1-a4e6-d789552dec9f)  
+![Morph Ball](https://github.com/Nystrata/EchoesWidescreenHUD/assets/15365192/f4b94587-a3c3-4532-a1a0-56eda6abf99e)
 (These screenshots uses parts of [Metroid Prime Trilogy - HD Interface Textures](https://forums.dolphin-emu.org/Thread-metroid-prime-trilogy-hd-interface-textures-v-1-7-may-01-2021).)  
-More screenshots can be found on the [Screenshots page](https://github.com/Nystrata/echoeswidescreenhud/tree/main/extras/images/](https://github.com/Nystrata/EchoesWidescreenHUD/wiki/Screenshots)).  
+More screenshots can be found on the [Screenshots page](https://github.com/Nystrata/EchoesWidescreenHUD/wiki/Screenshots).  
 
 ***
 
