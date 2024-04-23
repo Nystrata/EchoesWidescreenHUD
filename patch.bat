@@ -89,6 +89,18 @@ if %ERRORLEVEL% neq 0 (
 del ".\imgfs\files\GGuiSys.pak"
 copy ".\GGuiSys.pak" ".\imgfs\files\GGuiSys.pak"
 
+%xdelta3Path% -v -f -d -s ".\imgfs\files\Standard.ntwk" ".\vcdiff\Standard.ntwk.vcdiff" ".\Standard.ntwk"
+if %ERRORLEVEL% neq 0 (
+    set errorflag=1
+    echo.
+    echo An error has occured. ERRORLEVEL: %ERRORLEVEL%
+    echo.
+    echo Press any key to continue anyway . . .
+    pause > nul
+)
+del ".\imgfs\files\Standard.ntwk"
+copy ".\Standard.ntwk" ".\imgfs\files\Standard.ntwk"
+
 echo. && echo.
 echo ## BUILDING NEW IMAGE ##
 "%nodToolPath%" makegcn ".\imgfs" "echoes_widescreenhud.iso"
@@ -107,6 +119,7 @@ echo Deleting temporary files that are no longer needed...
 @echo on
 rmdir %~dp0imgfs /q /s
 del %~dp0GGuiSys.pak
+del %~dp0Standard.ntwk
 @echo off
 
 echo. && echo.
