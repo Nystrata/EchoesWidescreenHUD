@@ -88,7 +88,7 @@ in Dolphin, right-click the Metroid Prime 2: Randomizer in the game list, click 
 (In Dolphin, Metroid Prime 2: Randomizer's settings are stored seperately from the vanilla game's settings.)
 
 For Nintendont,  
-You can rename extras/GM2E01.gct this to game ID of the randomized game, such as G2ME0R.gct, G2ME1R.gct, etc.
+You can rename extras/GM2E01.gct to the game ID of the randomized game, such as G2ME0R.gct, G2ME1R.gct, etc.
 
 ### If you're looking for a version for Metroid Prime 1
 See Aruki's [Widescreen Hud Mod for Metroid Prime](https://wiki.dolphin-emu.org/index.php?title=Metroid_Prime_(GC)#16:9_HUD_Mod)    
