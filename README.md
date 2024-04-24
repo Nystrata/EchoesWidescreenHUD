@@ -27,7 +27,7 @@ More screenshots can be found on the [Screenshots page](https://github.com/Nystr
   Right-click the Metroid Prime 2: Echoes in the game list, click Properties, and apply the code to the Gecko Codes tab.  
   
   This widescreen code is for the NTSC-U copy of the game:  
-  [(Source)](https://wiki.dolphin-emu.org/index.php?title=Metroid_Prime_2:_Echoes_(GC)#16:9_Aspect_Ratio_Fix)  
+  (Taken from [Dolphin Emulator Wiki](https://wiki.dolphin-emu.org/index.php?title=Metroid_Prime_2:_Echoes_(GC)#16:9_Aspect_Ratio_Fix))
   ```
   $16:9 Widescreen [gamemasterplc]
   C230256C 00000002
@@ -47,7 +47,7 @@ More screenshots can be found on the [Screenshots page](https://github.com/Nystr
   Enable Widescreen Hack (Options -> Graphics Settings -> Enhancements -> Check Widescreen Hack)
   
   To fix frustum culling problems (seeing stuff pop in and out near the left/right edges of the screen), use this Gecko code:  
-  [(Source)](https://wiki.dolphin-emu.org/index.php?title=Metroid_Prime_2:_Echoes_(GC)#NA)
+  (Taken from [Dolphin Emulator Wiki](https://wiki.dolphin-emu.org/index.php?title=Metroid_Prime_2:_Echoes_(GC)#NA))
   ```
   $VR Culling Fix
   04302498 38600001
@@ -71,11 +71,8 @@ More screenshots can be found on the [Screenshots page](https://github.com/Nystr
   There, you can add the setting to the User Config section)
 
 ## Widescreen for Nintendont
-For Nintendont, in the [extras folder](https://github.com/Nystrata/EchoesWidescreenHUD/tree/main/extras), you can use G2ME01.gct for the Widescreen codes.
-For Randovania Randomizer, you can rename this to game ID of the randomized game, such as G2ME0R.gct, G2ME1R.gct, etc.
-
+For Nintendont, in the [extras folder](https://github.com/Nystrata/EchoesWidescreenHUD/tree/main/extras), you can use G2ME01.gct for the Widescreen codes.   
 You may also try Nintedont's "Force Widescreen" option, but this has not been tested.
-
 
 ***
 ### Randovania Compatibility
@@ -89,6 +86,9 @@ create a vanilla game with the Widescreen HUD mod first, then select it as the I
 After exporting,  
 in Dolphin, right-click the Metroid Prime 2: Randomizer in the game list, click Properties, and apply the codes to the Gecko Codes tab.  
 (In Dolphin, Metroid Prime 2: Randomizer's settings are stored seperately from the vanilla game's settings.)
+
+For Nintendont,  
+You can rename extras/GM2E01.gct this to game ID of the randomized game, such as G2ME0R.gct, G2ME1R.gct, etc.
 
 ### If you're looking for a version for Metroid Prime 1
 See Aruki's [Widescreen Hud Mod for Metroid Prime](https://wiki.dolphin-emu.org/index.php?title=Metroid_Prime_(GC)#16:9_HUD_Mod)    
