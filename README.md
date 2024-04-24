@@ -96,17 +96,14 @@ See Aruki's [Widescreen Hud Mod for Metroid Prime](https://wiki.dolphin-emu.org/
 
 ### Files changed
 - GGuiSys.pak
-  - eef43aa1.FRME 
-    - Combat Visor, Dark Visor, Echo Visor
-  - e6f37215.FRME
-    - Helmet overlay
-  - f7ec0850.FRME 
-    - Scan Visor
-  - 88738d60.FRME
-    - Morph Ball HUD
+  - eef43aa1.FRME (Combat Visor, Dark Visor, Echo Visor)
+  - e6f37215.FRME (Helmet overlay)
+  - f7ec0850.FRME (Scan Visor)
+  - 88738d60.FRME (Morph Ball HUD)
 - Standard.ntwk
-  - TweakGui > Unknown (BallViewportYReduction)
-    - Remove cimematic black bars from Morph Ball view
+  - TweakGui > Unknown (BallViewportYReduction) (Remove cimematic black bars from Morph Ball view)  
+
+Additional details about these files can be found on [this repository's wiki](https://github.com/Nystrata/EchoesWidescreenHUD/wiki#known-files).
 
 ### To-Do
 - [X] [Remove cimematic black bars from Morph Ball view](https://github.com/Nystrata/EchoesWidescreenHUD/issues/1)
