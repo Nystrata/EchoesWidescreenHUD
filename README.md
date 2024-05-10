@@ -13,7 +13,7 @@ More screenshots can be found on the [Screenshots page](https://github.com/Nystr
 **For Windows**
 1. Download from [Releases](https://github.com/Nystrata/echoeswidescreenhud/releases) and extract this mod's folder.
 2. Make a copy of the game and rename it to `echoes.iso`. Place it in the mod's folder.
-3. Run the included **patch.nat** - use the one for your game's version.
+3. Run the included **patch.bat** - use the one for your game's version.
 4. This will create a new ISO file called echoes_*version*_widescreenhud.iso with the mod installed
 
 For not Windows, see [Extra Instructions - Wiki](https://github.com/Nystrata/EchoesWidescreenHUD/wiki/Extra-Instructions#patching-the-game-for-not-windows)
