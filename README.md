@@ -2,12 +2,20 @@
 
 ## Overview
 
-This a for Metroid Prime 2: Echoes for the Nintendo GameCube that adjusts the HUD to better match forced 16:9 widescreen hacks.  
-This will only work for NTSC-U G2ME01 and PAL G2MP01 versions of the game. (NTSC-J is not supported.)
+This a for *Metroid Prime 2: Echoes* for the Nintendo GameCube that adjusts the HUD to better match forced 16:9 widescreen hacks.  
 
 ![324662639-7e57fb19-1ead-4475-9fae-c6439fa0877c-1](https://github.com/Nystrata/EchoesWidescreenHUD/assets/15365192/41aa7660-7b33-4611-9aec-13ecd7487cfe)  
 More screenshots can be found on the [Screenshots page](https://github.com/Nystrata/EchoesWidescreenHUD/wiki/Screenshots).  
 
+## Supported Versions
+|Game Version | Game ID | Supported |
+|-------------|---------|------------------------|
+| NTSC-U      | G2ME01  | **Yes**                |
+| PAL         | G2MP01  | **Yes** (experimental) |
+| NTSC-K      | G2MK01  | No                     |
+| NTSC-J      | G2MJ01  | No                     |
+
+*Metroid Prime 2: Dark Echoes New Play Control!* and *Metroid Prime Trilogy* for the Wii do not need this mod - these versions of the game already have widescreen support. 
 
 ## Patching the Game
 **For Windows**
