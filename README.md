@@ -17,6 +17,8 @@ More screenshots can be found on the [Screenshots page](https://github.com/Nystr
 
 *Metroid Prime 2: Dark Echoes New Play Control!* and *Metroid Prime Trilogy* for the Wii do not need this mod - these versions of the game already have widescreen support. 
 
+If you run into any issues or problems with this, large or small, please let me know in the [Issues tracker](https://github.com/Nystrata/EchoesWidescreenHUD/issues).
+
 ## Patching the Game
 **For Windows**
 1. Download from [Releases](https://github.com/Nystrata/echoeswidescreenhud/releases) and extract this mod's folder.
