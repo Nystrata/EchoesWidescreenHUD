@@ -115,7 +115,6 @@ See the [Dolphin Setup Guide by erinexplosives](https://docs.google.com/document
 
 ### If you're looking for a version for Metroid Prime 1
 See Aruki's [Widescreen Hud Mod for Metroid Prime](https://wiki.dolphin-emu.org/index.php?title=Metroid_Prime_(GC)#16:9_HUD_Mod)    
-(You can also use my [PrimeWidescreenHUDHelper](https://github.com/Nystrata/PrimeWidescreenHUDHelper)  to simplify the process - skipping the need to manually extract files.)
 
 ### Files changed
 - GGuiSys.pak
