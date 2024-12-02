@@ -26,6 +26,11 @@ If you run into any issues or problems with this, large or small, please let me 
 3. Run the included **patch.bat** - it should automatically detect whether your game is NTSC or PAL and patch accordingly. 
 4. This will create a new ISO file called echoes_*version*_widescreenhud.iso with the mod installed
 
+>[!NOTE]
+> If you named your file echoes.iso, but the patch script still reports echoes.iso not found,  
+> You may have the "Hide extensions for known file types" option enabled in File Explorer.   
+> **Try naming your file just as `echoes` and then run script again.**
+
 For not Windows, see [Extra Instructions - Wiki](https://github.com/Nystrata/EchoesWidescreenHUD/wiki/Extra-Instructions#patching-the-game-for-not-windows)
 
 ## Widescreen for Dolphin
