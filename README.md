@@ -8,7 +8,7 @@ This a mod for *Metroid Prime 2: Echoes* for the Nintendo GameCube that adjusts 
 More screenshots can be found on the [Screenshots page](https://github.com/Nystrata/EchoesWidescreenHUD/wiki/Screenshots).  
 
 ## Supported Versions
-|Game Version | Game ID | Supported |
+|Game Version | Game ID | Supported              |
 |-------------|---------|------------------------|
 | NTSC-U      | G2ME01  | **Yes**                |
 | PAL         | G2MP01  | **Yes** (experimental) |
@@ -34,59 +34,46 @@ If you run into any issues or problems with this, large or small, please let me 
 For not Windows, see [Extra Instructions - Wiki](https://github.com/Nystrata/EchoesWidescreenHUD/wiki/Extra-Instructions#patching-the-game-for-not-windows)
 
 ## Widescreen for Dolphin
-#### Widescreen Hack Method (NTSC-U and PAL)    
 
-In Dolphin, 
-1. Choose Force 16:9 or Stretch for the Aspect Ratio  
-   (Options -> Graphics Settings -> General -> Aspect Ratio)   
-2. Enable Widescreen Hack  
-   (Options -> Graphics Settings -> Enhancements -> Check Widescreen Hack)  
+#### Gecko Code Method    
+  In Dolphin, choose Force 16:9 for the Aspect Ratio (Options -> Graphics Settings -> General -> Aspect Ratio)   
+  Right-click the Metroid Prime 2: Echoes in the game list, click Properties, and apply the code to the Gecko Codes tab.  
+  
+  * NTSC-U 16:9 Aspect Ratio:  
+    (Taken from [Dolphin Emulator Wiki](https://wiki.dolphin-emu.org/index.php?title=Metroid_Prime_2:_Echoes_(GC)#16:9_Aspect_Ratio_Fix))  
+     ```
+     $16:9 Widescreen [gamemasterplc] (NTSC-U Only)
+     C230256C 00000002
+     3DC04000 91C20000
+     C3420000 00000000
+     C236D684 00000004
+     3DC03FAA 61CEAAAB
+     91C20000 C2620000
+     ED330272 ED6A4824
+     60000000 00000000
+     ```
+  * PAL 16:9 Aspect Ratio:  
+    (This is experimental. I ported this from the above code)  
+    ```
+    $16:9 Widescreen [gamemasterplc, Nystrata] (PAL Only) 
+    C23029E0 00000002
+    3DC04000 91C20000
+    C3420000 00000000
+    C236DAA0 00000004
+    3DC03FAA 61CEAAAB
+    91C20000 C2620000
+    ED330272 ED6A4824
+    60000000 00000000
+    ```  
+  **Make sure Widescreen Hack is *disabled* in Dolphin when using this code!**  
+  To disable Widescreen Hack, go to Options -> Graphics Settings -> Enhancements -> Uncheck Widescreen Hack
 
-To fix frustum culling problems (seeing stuff pop in and out near the left/right edges of the screen), use this Gecko code:  
-(Taken from [Dolphin Emulator Wiki](https://wiki.dolphin-emu.org/index.php?title=Metroid_Prime_2:_Echoes_(GC)#VR_Culling_Fix))
-```
-$VR Culling Fix (for NTSC-U)
-04302498 38600001
-0430249C 4E800020
-04302298 38600001
-0430229C 4E800020
-043022F8 38600001
-043022FC 4E800020
-04302450 38600001
-04302454 4E800020
-04302364 38600001
-04302368 4E800020
-```
-```
-$VR Culling Fix (for PAL)
-0430290C 38600001
-04302910 4E800020
-0430270C 38600001
-04302710 4E800020
-0430276C 38600001
-04302770 4E800020
-043027D8 38600001
-043027DC 4E800020
-043028C4 38600001
-043028C8 4E800020
-0430290C 38600001
-04302910 4E800020
-```
-
-To fix the game flickering between normal and stretched view, edit the game INI to add  
-```
-[Video_Settings]
-SuggestedAspectRatio = 2
-```
-(To edit game INI settings, right click Metroid Prime 2: Echoes in the game list -> Properties -> Game Config tab -> Editor  
-There, you can add the setting to the User Config section)  
-
-#### Gecko Code Method (NTSC-U Only)      
-See [Wiki: Widescreen for Dolphin: Gecko Code Method](https://github.com/Nystrata/EchoesWidescreenHUD/wiki/Extra-Instructions#widescreen-for-dolphin-gecko-code-method)  
+#### Widescreen Hack Method 
+See [Wiki: Widescreen for Dolphin: Widescreen Hack Method](https://github.com/Nystrata/EchoesWidescreenHUD/wiki/Extra-Instructions#widescreen-for-dolphin-widescreen-hack-method)
 
 ## Widescreen for Nintendont
 **Widescreen Hack Method (NTSC-U and PAL)**  
-You may try Nintedont's "Force Widescreen" option, but this has not been tested.  
+You may try Nintedont's "Force Widescreen" option, but this has not been extensively tested. (It's worked quite well in my experience.)  
   
 **Gecko Code Method (NTSC-U Only)**  
 For Nintendont, in the [extras folder](https://github.com/Nystrata/EchoesWidescreenHUD/tree/main/extras), you can use G2ME01.gct for the Widescreen codes.   
@@ -95,7 +82,7 @@ For Nintendont, in the [extras folder](https://github.com/Nystrata/EchoesWidescr
 ## Mod Compatibility
 ### PrimeHack
 This mod should work with the [PrimeHack](https://forums.dolphin-emu.org/Thread-fork-primehack-fps-controls-and-more-for-metroid-prime) Dolphin fork.  
-Follow the same instructions for [Widescreen for Dolphin](#widescreen-for-dolphin). You do not need to edit the Game INI when using PrimeHack.  
+Follow the same instructions for [Widescreen for Dolphin](#widescreen-for-dolphin).    
 
 ### Echoes Menu
 To use this with [Claris's Echoes Menu](https://www.dropbox.com/s/yhqqafaxfo3l4vn/Echoes%20Menu.7z) practice mod,  
